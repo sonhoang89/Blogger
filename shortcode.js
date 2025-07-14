@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <img src="${post.thumb}" class="sc-thumb" loading="lazy" alt="thumb" style="width: 300px; height: 200px; object-fit: cover;">
                 <div class="sc-content">
                   <h4><a href="${post.link}" target="_blank">${post.title}</a></h4>
-                  <small>${post.date}</small>
+                  <small>${post.date} • ${post.comments} bình luận</small>
                   <p>${post.summary}</p>
                 </div>
               </div>
