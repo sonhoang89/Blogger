@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="${post.thumb}" loading="lazy" class="sc-thumb${post.idx === 0 ? ' sc-thumb-large' : ''}" alt="thumb">
             <div class="sc-content">
               <div class="sc-tags">${post.tagHTML}</div>
-              <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
+              <h3><a href="${post.link}">${post.title}</a></h3>
               <small>${post.author} – ${post.date} • ${post.comments} bình luận</small>
               <p>${post.summary}</p>
             </div>
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="${first.thumb}" class="sc-thumb sc-thumb-large" loading="lazy" alt="thumb" style="width: 300px; height: 200px; object-fit: cover;">
             <div class="sc-content">
               <div class="sc-tags">${first.tagHTML}</div>
-              <h3><a href="${first.link}" target="_blank">${first.title}</a></h3>
+              <h3><a href="${first.link}">${first.title}</a></h3>
               <small>${first.author} – ${first.date} • ${first.comments} bình luận</small>
               <p>${first.summary}</p>
             </div>
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="sc2-item">
                 <img src="${post.thumb}" class="sc-thumb" loading="lazy" alt="thumb" style="width: 300px; height: 200px; object-fit: cover;">
                 <div class="sc-content">
-                  <h4><a href="${post.link}" target="_blank">${post.title}</a></h4>
+                  <h4><a href="${post.link}">${post.title}</a></h4>
                   <small>${post.date} • ${post.comments} bình luận</small>
                   <p>${post.summary}</p>
                 </div>
